@@ -35,7 +35,6 @@ class App extends Component {
       <div className="App">
         <CartIndicator cart={this.props.cart} emptyCart={this.props.emptyCart}/>
         <Filter />
-        <h1>check testing</h1>
         <TableHeader headers={this.props.headers} handler={this.headersClickHandler}/>
         {rows}
       </div>

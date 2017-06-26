@@ -33,6 +33,7 @@ export default function TableRow(props){
         className={(cat.dbName === 'amount' && !c.isDeposit)?'withdrawl':''}>
           {dataFormatter(c, c[cat.dbName], cat.dbName)}
         </span>
+        {i===len-1 && <input type="checkbox"/>}
       </div>
   });
   return <div tabIndex="0" className={selected?'table-row selected':'table-row'}>

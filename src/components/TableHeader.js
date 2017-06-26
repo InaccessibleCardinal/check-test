@@ -10,5 +10,5 @@ export default function TableHeader(props){
     </button>
     </div>
   });
-  return <div className="table-row">{tblHeaders}</div>
+  return <div className="table-row header">{tblHeaders}</div>
 }
