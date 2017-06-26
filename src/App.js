@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import TableHeader from './components/TableHeader';
 import TableRow from './components/TableRow';
 import CartIndicator from './components/CartIndicator';
+import Filter from './components/Filter';
 
 import './App.css';
 
@@ -33,6 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <CartIndicator cart={this.props.cart} emptyCart={this.props.emptyCart}/>
+        <Filter />
         <h1>check testing</h1>
         <TableHeader headers={this.props.headers} handler={this.headersClickHandler}/>
         {rows}
