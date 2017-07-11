@@ -1,19 +1,19 @@
 import React from 'react';
 import TableSubRow from './TableSubRow';
 
-function parseDate(dt){
-  let dtStr = dt.toString(),
-  yr = dtStr.slice(0,4),
-  mo = dtStr.slice(4,6),
-  day = dtStr.slice(6,8);
-  return mo+'/'+day+'/'+yr;
+function parseDate(dt) {
+  let dtStr = dt.toString();
+  return dtStr.substr(4,2)+'/'+dtStr.substr(6,2)+'/'+dtStr.substr(0,4);
+}
+function parseAmount(amount) {
+  return '$'+parseFloat(amount).toFixed(2).toLocaleString();
 }
 function dataFormatter(check, str, catName){
   switch(catName){
     case 'datePosted':
       return parseDate(str);
     case 'amount':
-      return check.isDeposit?'$'+str.toFixed(2):'($'+str.toFixed(2)+')';
+      return check.isDeposit? parseAmount(str):'('+parseAmount(str)+')';
     default:
       return str;
   }
