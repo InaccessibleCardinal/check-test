@@ -25,9 +25,7 @@ export default (state = initialState, action) =>{
           let newChecks = [];
           state.checks.forEach((c) =>{ newChecks.push(c) })
           newChecks.sort( (cA,cB)=>{
-            // let a = parseInt(cA[cat],10),
-            //     b = parseInt(cB[cat],10);
-            let a = cA[cat], b = cB[cat];
+            let a = cA[cat] || -Infinity, b = cB[cat] || -Infinity;
           if(a > b){ return -1*basis }
           if(b > a){ return 1*basis }
           return 0*basis;

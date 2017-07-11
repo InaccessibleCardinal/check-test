@@ -6,7 +6,10 @@ function parseDate(dt) {
   return dtStr.substr(4,2)+'/'+dtStr.substr(6,2)+'/'+dtStr.substr(0,4);
 }
 function parseAmount(amount) {
-  return '$'+parseFloat(amount).toFixed(2).toLocaleString();
+  return '$'+parseFloat(Math.abs(amount)).toFixed(2).toLocaleString();
+}
+function parseCheckOrDeposit(val) {
+  return val === undefined ? 'Deposit' : val;
 }
 function dataFormatter(check, str, catName){
   switch(catName){
@@ -14,6 +17,8 @@ function dataFormatter(check, str, catName){
       return parseDate(str);
     case 'amount':
       return check.isDeposit? parseAmount(str):'('+parseAmount(str)+')';
+    case 'checkNumber':
+      return parseCheckOrDeposit(str);
     default:
       return str;
   }

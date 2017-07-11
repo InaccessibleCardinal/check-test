@@ -4,7 +4,6 @@ export const checks = [{
       "isDeposit": true,
       "routingNumber": "314074269",
       "depositId": "16000007",
-      "checkNumber": "0",
       "amount": 198.976,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170322&16000009&f",
@@ -17,7 +16,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1",
-      "amount": 10000,
+      "amount": -10000,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170307&18000002&f",
         "/v1/bank/check-images/image/20170307&18000002&b"
@@ -29,7 +28,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1122",
-      "amount": 5000.04,
+      "amount": -5000.04,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170307&18000003&f",
         "/v1/bank/check-images/image/20170307&18000003&b"
@@ -41,7 +40,6 @@ export const checks = [{
       "isDeposit": true,
       "routingNumber": "314074269",
       "depositId": "12000006",
-      "checkNumber": "1958695",
       "amount": 10000.4332,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170302&12000006&f",
@@ -54,7 +52,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1027",
-      "amount": 5000.66666,
+      "amount": -5000.66666,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170302&18000008&f",
         "/v1/bank/check-images/image/20170302&18000008&b"
@@ -66,7 +64,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1284",
-      "amount": 10000.50,
+      "amount": -10000.50,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170302&18000009&f",
         "/v1/bank/check-images/image/20170302&18000009&b"
@@ -78,7 +76,6 @@ export const checks = [{
       "isDeposit": true,
       "routingNumber": "314074269",
       "depositId": "12000012",
-      "checkNumber": "Deposit",
       "amount": 10000.56,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170302&12000013&f",
@@ -91,7 +88,6 @@ export const checks = [{
       "isDeposit": true,
       "routingNumber": "314074269",
       "depositId": "12000008",
-      "checkNumber": "Deposit",
       "amount": 5000,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170302&12000008&f",
@@ -104,8 +100,7 @@ export const checks = [{
       "isDeposit": true,
       "routingNumber": "314074269",
       "depositId": "12000010",
-      "checkNumber": "4",
-      "amount": 5000,
+      "amount": 5000.55,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170302&12000011&f",
         "/v1/bank/check-images/image/20170302&12000011&b"
@@ -117,7 +112,6 @@ export const checks = [{
       "isDeposit": true,
       "routingNumber": "314074269",
       "depositId": "16000021",
-      "checkNumber": "Deposit",
       "amount": 10000,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170217&16000042&f",
@@ -127,11 +121,11 @@ export const checks = [{
     {
       "account": "334646",
       "datePosted": "20170217",
-      "isDeposit": true,
+      "isDeposit": false,
       "routingNumber": "314074269",
       "depositId": "16000021",
       "checkNumber": "6",
-      "amount": 5000,
+      "amount": -5000,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170217&16000049&f",
         "/v1/bank/check-images/image/20170217&16000049&b"
@@ -143,7 +137,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1043",
-      "amount": 100,
+      "amount": -100,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170215&18000002&f",
         "/v1/bank/check-images/image/20170215&18000002&b"
@@ -155,7 +149,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1049",
-      "amount": 300.58,
+      "amount": -300.58,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170222&18000002&f",
         "/v1/bank/check-images/image/20170222&18000002&b"
@@ -167,7 +161,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1055",
-      "amount": 100.22,
+      "amount": -100.22,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170227&18000002&f",
         "/v1/bank/check-images/image/20170227&18000002&b"
@@ -179,7 +173,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1055",
-      "amount": 99,
+      "amount": -99.99,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170227&18000002&f",
         "/v1/bank/check-images/image/20170227&18000002&b"
@@ -191,7 +185,7 @@ export const checks = [{
       "isDeposit": false,
       "routingNumber": "314074269",
       "checkNumber": "1055",
-      "amount": 299,
+      "amount": -299.55,
       "imagesUrl": [
         "/v1/bank/check-images/image/20170227&18000002&f",
         "/v1/bank/check-images/image/20170227&18000002&b"
